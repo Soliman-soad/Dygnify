@@ -8,8 +8,8 @@ const Navbar = () => {
             <div>
                 <img src={logo} className='mx-auto mt-5' alt="" />
             </div>
-            <div>
-                <ul className='flex'>
+            <div >
+                <ul className='flex '>
                     <li className='px-5 py-2 mr-5'><NavLink className={({ isActive, isPending }) =>
                       isActive
                         ? "active font-bold bg-[#8010FC] text-white p-2 rounded-md"

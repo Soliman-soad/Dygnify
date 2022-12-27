@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PersonalInformation = () => {
+const BusinessInformation = () => {
     const handleRegister = event =>{
         event.preventDefault();
         
@@ -44,4 +44,4 @@ const PersonalInformation = () => {
     );
 };
 
-export default PersonalInformation;
+export default BusinessInformation;
